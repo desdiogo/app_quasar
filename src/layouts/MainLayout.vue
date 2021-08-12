@@ -12,7 +12,7 @@
         />
 
         <q-toolbar-title>
-          Quasar App
+          App
         </q-toolbar-title>
 
         <q-btn-dropdown flat text-color="white" :label="`Seja bem-vindo ${user}`" no-caps>
@@ -38,7 +38,6 @@
           header
           class="text-grey-8"
         >
-          Essential Links
         </q-item-label>
         <EssentialLink
           v-for="link in essentialLinks"
