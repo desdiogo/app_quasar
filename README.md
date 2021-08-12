@@ -16,5 +16,5 @@ Através do link:
 <a href="https://app-quasar.vercel.app">App Vue</a>
 
 O usuário e a senha de acesso:
-email: teste@teste.com.br
-senha: teste
+- email: teste@teste.com.br
+- senha: teste
