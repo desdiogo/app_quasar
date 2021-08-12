@@ -7,7 +7,7 @@ export function notify (message) {
     message: message,
     position: 'bottom-right',
     actions: [
-      { label: 'Ok', color: 'white', handler: () => { /* console.log('wooow') */ } }
+      { icon: 'close', color: 'white', attrs: { 'aria-label': 'Dismiss' } }
     ],
     timeout: 5000
   })
